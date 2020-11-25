@@ -29,4 +29,5 @@ Aside from checking files to run `npm run build`, the script also supports condi
 Note: All commands will run in your project's root directory, so make sure it is a git repository, and all required packages are installed on the server.
 
 Example:
+
 `bash update.sh /var/www/sites/sample-project`
