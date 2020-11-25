@@ -15,7 +15,7 @@ do
        build=true
    fi
 
-   if [[ $file == *"config/"* && $file =~ \.php$ ]]; then
+   if [[ ($file == *"config/"* && $file =~ \.php$) || $file == ".env" ]]; then
        config_cache=true
    fi
 
