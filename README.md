@@ -15,3 +15,9 @@ Aside from checking files to run `npm run build`, the script also supports condi
  - `php artisan config:cache` - When any `php` file within the `<project_root>/config/` directory or the `.env` file is modified
 
 ### How to use
+
+The script accepts your project's root directory as its argument.
+
+Example:
+
+`bash update.sh /var/www/sites/sample-project`
