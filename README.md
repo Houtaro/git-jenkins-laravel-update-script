@@ -12,6 +12,6 @@ Aside from checking files to run `npm run build`, the script also supports condi
 
  - `composer install` - When `composer.json` is modified
  - `npm install` - When `package.json` is modified
- - `php artisan config:cache` - When any `php` file within the `<project_root>/config/` directory is modified
+ - `php artisan config:cache` - When any `php` file within the `<project_root>/config/` directory or the `.env` file is modified
 
 ### How to use
