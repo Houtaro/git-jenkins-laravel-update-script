@@ -14,7 +14,7 @@ Aside from checking files to run `npm run build`, the script also supports condi
  - `npm install` - When `package.json` is modified
  - `php artisan config:cache` - When any `php` file within the `<project_root>/config/` directory or the `.env` file is modified
 
-## Requirements
+### Requirements
 
  - Ubuntu OS
  - php
