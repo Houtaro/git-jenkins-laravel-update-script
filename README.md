@@ -1,5 +1,3 @@
-
-
 ### Purpose:
 
 Run commands on a Laravel + Vue project based on modified files.
@@ -15,3 +13,5 @@ Aside from checking files to run `npm run build`, the script also supports condi
  - `composer install` - When `composer.json` is modified
  - `npm install` - When `package.json` is modified
  - `php artisan config:cache` - When any `php` file within the `<project_root>/config/` directory is modified
+
+### How to use
